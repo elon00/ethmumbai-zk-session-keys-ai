@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-zk-session-keys-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMKEYS"
+      },
+      "tools": [
+        {
+          "name": "verify_emkeys_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai ZK Session Keys AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emkeys_action",
+          "description": "Executes authenticated Identity state transition."
+        }
+      ]
+    }
+  }
+}

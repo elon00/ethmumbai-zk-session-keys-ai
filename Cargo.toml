@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-zk-session-keys-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "WebAuthn passkey pass-through and session key manager"
+license = "MIT"
+
+[dependencies]
